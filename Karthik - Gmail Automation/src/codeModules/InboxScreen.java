@@ -18,6 +18,7 @@ public class InboxScreen {
 		ClickActions clkAct  = new ClickActions(driver);
 		EnterKeysActions entKey = new EnterKeysActions(driver);		
 		
+		//Inbox screen actions 3
 		clkAct.Click("inboxScreen", "composeButton");
 		clkAct.Click("inboxScreen", "emailRecipients");
 		entKey.EnterKeys("inboxScreen", "emailRecipients", "karthik.ktp1988@gmail.com");
